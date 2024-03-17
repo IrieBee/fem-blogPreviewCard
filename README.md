@@ -26,7 +26,7 @@ Users should be able to:
 
 ![screenshot](https://github.com/ltsyBitsy/fem-blogPreviewCard/blob/main/images/screenshot.jpg)
 
-## Links
+### Links
 
 * Solution URL: https://github.com/ltsyBitsy/fem-blogPreviewCard
 * Live Site URL: https://ltsybitsy.github.io/fem-blogPreviewCard/
@@ -58,12 +58,12 @@ const proudOfThisFunc = () => {
 ### Continued development
 
  *
- 
+
 ## Useful resources
 
 * 
 
 ## Acknowledgements
 
-* Odin project
-* Frontend Mentor
+* [Odin project](https://www.theodinproject.com/)
+* [Frontend Mentor](https://www.frontendmentor.io/home)
