@@ -41,8 +41,9 @@ Users should be able to:
 
 ### What I learned
 
+* When h1 is a link => wrap link in h1 instead of h1 in link.
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1><a href="http://">HTML & CSS foundations</a></h1>
 ```
 ```css
 .proud-of-this-css {
