@@ -62,7 +62,7 @@ const proudOfThisFunc = () => {
 
 ## Useful resources
 
-* 
+* https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004
 
 ## Acknowledgements
 
