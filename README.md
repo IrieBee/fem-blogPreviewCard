@@ -45,7 +45,7 @@ Users should be able to:
 ```html
 <h1><a href="http://">HTML & CSS foundations</a></h1>
 ```
-* Add favicon to the <head>.
+* Add favicon to the head of html.
 ```html
 <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 ```
