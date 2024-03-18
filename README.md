@@ -45,6 +45,10 @@ Users should be able to:
 ```html
 <h1><a href="http://">HTML & CSS foundations</a></h1>
 ```
+* Add favicon to the <head>.
+```html
+<link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+```
 ```css
 .proud-of-this-css {
   color: papayawhip;
@@ -63,6 +67,7 @@ const proudOfThisFunc = () => {
 ## Useful resources
 
 * https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004
+* https://www.w3schools.com/html/html_favicon.asp
 
 ## Acknowledgements
 
