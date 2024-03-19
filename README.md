@@ -49,9 +49,16 @@ Users should be able to:
 ```html
 <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 ```
+* Move 'main' to the center  and 'footer' to the bottom
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    margin: auto;
 }
 ```
 ```js
