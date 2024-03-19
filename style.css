@@ -7,7 +7,7 @@
 
     --fs-s: 0.5rem;
     --fs-m: 1rem;
-    --fs-l: 1.5rem;
+    --fs-l: 1.6rem;
 
     --fw-m: 500;
     --fw-l: 800;
@@ -32,26 +32,28 @@ body {
 }
 
 main {
-    max-width: 375px;
+    max-width: 385px;
     background-color: var(--neutral-white);
-    padding: 1.25rem;
+    padding: 1.325rem;
     border-radius: 1rem;
-    box-shadow: 1rem 1rem var(--neutral-black);
+    box-shadow: 0.5rem 0.5rem var(--neutral-black);
     border: solid 0.1rem var(--neutral-black);
     margin: auto;
 }
 h2 {
     background-color: var(--primary-yellow);
+    font-size: var(--fs-m);
+    letter-spacing: -0.025rem;
     padding: 0.25rem 1rem;
     border-radius: 0.25rem;
-    margin: 1rem 0 0.75rem;
+    margin: 1.25rem 0 0.9rem;
     display: inline-block;
 }
 
 h1 {
     font-size: var(--fs-l);
     font-weight: var(--fw-l);
-    margin: 0.9rem 0 1rem;
+    margin: 0.9rem 0 1.1rem;
 }
 
 a {
@@ -60,10 +62,11 @@ a {
 }
 a:hover{
     color: var(--primary-yellow);
-}
+    }
 
 .description {
     color: var(--neutral-grey);
+    line-height: 1.5;
 }
 
 div {
