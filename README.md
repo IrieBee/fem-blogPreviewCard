@@ -61,6 +61,12 @@ main {
     margin: auto;
 }
 ```
+* Wrap background in h2 around text
+```css
+h2 {
+      display: inline-block;
+}
+```
 ```js
 const proudOfThisFunc = () => {
   console.log('🎉')

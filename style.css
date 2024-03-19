@@ -5,7 +5,9 @@
     --neutral-grey: hsl(0, 0%, 50%);
     --neutral-black: hsl(0, 0%, 7%);
 
-    --fs: 1rem;
+    --fs-s: 0.5rem;
+    --fs-m: 1rem;
+    --fs-l: 1.5rem;
 
     --fw-m: 500;
     --fw-l: 800;
@@ -20,9 +22,10 @@
 body {
     min-height: 100vh;
     font-family: Figtree, sans-serif;
-    font-size: var(--fs);
+    font-size: var(--fs-m);
     font-weight: var(--fw-m);
     background-color: var(--primary-yellow);
+    color: var(--neutral-grey);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,5 +39,39 @@ main {
     box-shadow: 1rem 1rem var(--neutral-black);
     border: solid 0.1rem var(--neutral-black);
     margin: auto;
+}
+h2 {
+    background-color: var(--primary-yellow);
+    color: var(--neutral-black);
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    margin: 1rem 0 0.75rem;
+    display: inline-block;
+}
 
+h1 {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-l);
+    margin: 0.9rem 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-yellow);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+div p {
+    color: var(--neutral-black);
+    font-weight: var(--fw-l);
+}
+
+div img {
+    max-width: 2rem;
 }
