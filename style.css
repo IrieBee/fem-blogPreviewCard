@@ -40,6 +40,11 @@ main {
     border: solid 0.1rem var(--neutral-black);
     margin: auto;
 }
+
+main :first-child {
+    width: 100%;
+}
+
 h2 {
     background-color: var(--primary-yellow);
     font-size: var(--fs-m);
