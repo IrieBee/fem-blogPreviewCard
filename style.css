@@ -16,3 +16,23 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    min-height: 100vh;
+    font-family: Figtree, sans-serif;
+    background-color: var(--primary-yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    max-width: 375px;
+    background-color: var(--neutral-white);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem var(--neutral-black);
+    border: solid 0.1rem var(--neutral-black);
+    margin: auto;
+
+}
