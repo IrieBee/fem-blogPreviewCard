@@ -20,6 +20,8 @@
 body {
     min-height: 100vh;
     font-family: Figtree, sans-serif;
+    font-size: var(--fs);
+    font-weight: var(--fw-m);
     background-color: var(--primary-yellow);
     display: flex;
     flex-direction: column;
@@ -29,7 +31,7 @@ body {
 main {
     max-width: 375px;
     background-color: var(--neutral-white);
-    padding: 1rem;
+    padding: 1.25rem;
     border-radius: 1rem;
     box-shadow: 1rem 1rem var(--neutral-black);
     border: solid 0.1rem var(--neutral-black);
