@@ -95,6 +95,7 @@ div img {
 footer {
     font-size: var(--fs-s);
     color: var(--neutral-grey);
+    margin-top: 0.75rem;
 }
 
 footer a:hover {
