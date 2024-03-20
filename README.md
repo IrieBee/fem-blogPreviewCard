@@ -67,20 +67,22 @@ h2 {
       display: inline-block;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+* Make image responsive
+```css
+main :first-child {
+    width: 100%;
 }
 ```
 
 ### Continued development
 
- *
+ * Flexbox.
+ * Selectors: descendant combinators
 
 ## Useful resources
 
-* https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004
-* https://www.w3schools.com/html/html_favicon.asp
+* https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004 - wrapping link in 'header
+* https://www.w3schools.com/html/html_favicon.asp - favicon
 
 ## Acknowledgements
 
