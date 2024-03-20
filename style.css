@@ -4,8 +4,9 @@
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-grey: hsl(0, 0%, 50%);
     --neutral-black: hsl(0, 0%, 7%);
+    --neutral-yellow: hsl(47,90%, 20%);
 
-    --fs-s: 0.5rem;
+    --fs-s: 0.75rem;
     --fs-m: 1rem;
     --fs-l: 1.6rem;
 
@@ -26,6 +27,7 @@ body {
     font-weight: var(--fw-m);
     background-color: var(--primary-yellow);
     color: var(--neutral-black);
+    padding: 0.25rem 0.75rem 0.25rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +45,7 @@ main {
 
 main :first-child {
     width: 100%;
+    border-radius: 0.75rem;
 }
 
 h2 {
@@ -87,4 +90,13 @@ div p {
 
 div img {
     max-width: 2rem;
+}
+
+footer {
+    font-size: var(--fs-s);
+    color: var(--neutral-grey);
+}
+
+footer a:hover {
+    color: var(--neutral-yellow);
 }
