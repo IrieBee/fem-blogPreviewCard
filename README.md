@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-blogPreviewCard/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-blogPreviewCard/blob/main/images/screenshot.jpg)
 
 ### Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-blogPreviewCard
-* Live Site URL: https://ltsybitsy.github.io/fem-blogPreviewCard/
+* Solution URL: https://github.com/IrieBee/fem-blogPreviewCard
+* Live Site URL: https://IrieBee.github.io/fem-blogPreviewCard/
 
 ## My Process
 
